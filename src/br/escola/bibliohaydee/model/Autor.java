@@ -2,11 +2,34 @@ package br.escola.bibliohaydee.model;
 
 public class Autor {
 
-    public String nome;
-    public String nacionalidade;
-    public int anoNascimento;
+    private String nome;
+    private String nacionalidade;
+    private int anoNascimento;
 
     public Autor() {
+    }
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNacionalidade() {
+        return nacionalidade;
+    }
+
+    public void setNacionalidade(String nacionalidade) {
+        this.nacionalidade = nacionalidade;
+    }
+
+    public int getAnoNascimento() {
+        return anoNascimento;
+    }
+
+    public void setAnoNascimento(int anoNascimento) {
+        this.anoNascimento = anoNascimento;
     }
 
     @Override
